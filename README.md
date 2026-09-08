@@ -118,7 +118,6 @@ Key activities:
 * Transaction relationship validation
 * Data-quality flags
 ![Cleaning](screenshots/Silver.png)
-![Cleaning](screenshots/2.Cleaning.png)
 
 ![Cleaned version](screenshots/3.cleaned.png.png)
 
