@@ -119,7 +119,7 @@ Key activities:
 * Data-quality flags
 ![Cleaning](screenshots/Silver.png)
 
-![Cleaned version](screenshots/3.cleaned.png.png)
+![Cleaned version](screenshots/3.cleaned.png)
 
 ### Gold Layer
 
