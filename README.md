@@ -1,4 +1,4 @@
-# AML Risk Prediction & Transaction Risk Classification
+# AML Risk Prediction 
 
 ## 📌 Project Overview
 
