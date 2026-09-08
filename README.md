@@ -219,25 +219,7 @@ Potential business applications include:
 * Reducing manual transaction screening
 * Improving analytical visibility into transaction behavior
 
-> **Important:** This project is intended for educational and portfolio purposes and does not represent a production AML compliance system.
-
 ---
-
-## 🛠️ Technology Stack
-
-| Category          | Technologies                       |
-| ----------------- | ---------------------------------- |
-| Data Engineering  | Databricks, Delta Lake             |
-| Data Processing   | Python, Pandas                     |
-| Querying          | SQL                                |
-| Data Architecture | Medallion Architecture             |
-| Data Modeling     | Star Schema / Dimensional Modeling |
-| Machine Learning  | Logistic Regression                |
-| Analytics         | Exploratory Data Analysis          |
-| Version Control   | Git / GitHub                       |
-
----
-
 
 ## 🔮 Future Improvements
 
