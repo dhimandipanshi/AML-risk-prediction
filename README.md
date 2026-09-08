@@ -100,6 +100,8 @@ Key activities:
 * Delta table creation
 * Source data preservation
 
+![Incremantal Load](screenshots/Incremantal.png)
+
 ### Silver Layer
 
 The Silver layer focuses on data cleaning and validation.
@@ -115,6 +117,10 @@ Key activities:
 * Currency standardization
 * Transaction relationship validation
 * Data-quality flags
+![Cleaning](screenshots/Silver.png)
+![Cleaning](screenshots/2.Cleaning.png)
+
+![Cleaned version](screenshots/3.cleaned.png.png)
 
 ### Gold Layer
 
@@ -123,23 +129,6 @@ The Gold layer prepares analytics-ready data using **dimensional modeling**.
 The model follows a **star schema**:
 
 ![Dimensional Data Model](screenshots/datamodel.png)
-
-### Fact Table
-
-`FACT_TRANSACTION`
-
-Contains transaction-level measures and foreign keys used for analysis and machine learning.
-
-### Dimension Tables
-
-* `DIM_ACCOUNT`
-* `DIM_DATE`
-* `DIM_PAYMENT_FORMAT`
-* `DIM_CURRENCY`
-* `DIM_TYPE`
-* `DIM_LOCATION`
-
----
 
 ## 🔎 Exploratory Data Analysis
 
@@ -196,6 +185,7 @@ LOW RISK
 MEDIUM RISK
 HIGH RISK
 ```
+![Description of image](screenshots/RiskClassification.png)
 
 ---
 
@@ -210,6 +200,9 @@ Model performance is evaluated using classification metrics such as:
 * Confusion Matrix
 
 For AML use cases, **recall and precision are particularly important**, since missing potentially risky transactions can be costly while excessive false positives can increase investigation workload.
+
+![Description of image](screenshots/Classification_report.png)
+![Description of image](screenshots/confusionMatrix.png)
 
 ---
 
@@ -246,48 +239,6 @@ Potential business applications include:
 
 ---
 
-## 📁 Project Structure
-
-```text
-AML-Risk-Prediction/
-│
-├── notebooks/
-│   ├── 01_Bronze_Ingestion
-│   ├── 02_Silver_Cleaning
-│   ├── 03_Gold_Data_Model
-│   ├── 04_EDA
-│   ├── 05_ML_Features
-│   ├── 06_Logistic_Regression
-│   └── 07_Model_Evaluation
-│
-├── sql/
-│   └── dimensional_model.sql
-│
-├── README.md
-│
-└── requirements.txt
-```
-
----
-
-## 🚀 Key Skills Demonstrated
-
-* Data Engineering
-* ETL / ELT Pipelines
-* Medallion Architecture
-* Data Cleaning & Validation
-* SQL
-* Python & Pandas
-* Dimensional Data Modeling
-* Star Schema Design
-* Feature Engineering
-* Machine Learning
-* Classification
-* AML / Financial Risk Analytics
-* Databricks
-* Git & GitHub
-
----
 
 ## 🔮 Future Improvements
 
@@ -303,8 +254,3 @@ Potential next steps include:
 
 ---
 
-## 👩‍💻 Project Purpose
-
-This project was created to demonstrate the integration of **data engineering + analytics + machine learning** within a financial-risk use case.
-
-It showcases how large-scale transaction data can be transformed into a structured analytical dataset and ultimately used to support **AML risk identification and investigation prioritization**.
