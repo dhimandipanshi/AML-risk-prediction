@@ -122,18 +122,7 @@ The Gold layer prepares analytics-ready data using **dimensional modeling**.
 
 The model follows a **star schema**:
 
-```text
-                 DIM_DATE
-                    │
-                    │
-DIM_ACCOUNT ─── FACT_TRANSACTION ─── DIM_PAYMENT_FORMAT
-                    │
-                    │
-              DIM_CURRENCY
-                    │
-                    │
-                DIM_TYPE
-```
+![Dimensional Data Model](screenshots/datamodel.png)
 
 ### Fact Table
 
